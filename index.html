@@ -26,15 +26,15 @@
             </div>
             <div class="col-4">
                 <h5>Genera il numero per il PC</h5>
-                <button onclick="genPcNumber()" type="button" class="bg-white">Genera</button>
+                <button onclick="genPcNumber()" type="button" class="bg-white" id="pcNumber">Genera</button>
             </div>
             <div class="row justify-content-center w-50 py-5">
                 <button onclick="showResults()" type="button" class="bg-white rounded-2">VAI ALL'ESITO</button>
             </div>
         </div>
         
-        <div id="esitoCard" class="d-non AGGINGI UNA E">
-            <h1 class="text-center text-white my-4">ESITO</h1>
+        <h1 class="text-center text-white my-4" id="message"></h1>
+        <div id="esitoCard" class="d-none">
             <div class="container-fluid row justify-content-center">
                 <div class="col-9 bg-white row py-4 justify-content-center">
                     <div class="col-6 d-flex">
