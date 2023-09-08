@@ -14,10 +14,10 @@
         <div class="col-9 bg-white row py-4 justify-content-center">
             <div class="col-4">
                 <h5>Scegli se PARI o DISPARI</h5>
-                <select name="" id="scelta" class="form-select w-75">
-                    <option selected>Scegli</option>
-                    <option value="pari">Pari</option>
-                    <option value="dispari">Dispari</option>
+                <select id="scelta" class="form-select w-75" onchange="pariOdispari()">
+                    <option >Scegli</option>
+                    <option>Pari</option>
+                    <option>Dispari</option>
                 </select>
             </div>
             <div class="col-4">
@@ -41,7 +41,7 @@
                          <h5>SOMMA =<h5 id="somma"></h5> </h5>
                     </div>
                     <div class="col-6">
-                        <h5 id="esito">QUI USCIRA' L'ESITO</h5>
+                        <h5 id="esito"></h5>
                     </div>
                 </div>
             </div>
